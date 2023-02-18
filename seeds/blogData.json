@@ -1,0 +1,12 @@
+[
+    {
+        "title": "HTML/CSS",
+        "text": "HTML/CSS are the eyes and mouth of web development. They are the first thing that people see when visiting a website.",
+        "userID": 1
+    },
+    {
+        "title": "Handlebars",
+        "text": "Handlebars creates cleaner code when styling a page.",
+        "userID": 2
+    }
+]

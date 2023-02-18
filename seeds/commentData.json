@@ -1,0 +1,12 @@
+[
+    {
+        "comment": "That explanation was simpler to understand",
+        "blogID": 1,
+        "userID": 1
+    },
+    {
+        "comment": "A little confused on handlebars still... ",
+        "blogID": 2,
+        "userID": 2
+    }
+]
