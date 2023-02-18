@@ -35,4 +35,23 @@ router.delete('/:id', withAuth, async(req, res) => {
     }
 });
 
-module.exports = router; 
+router.put('/:id', withAuth, async (req, res) => {
+    try {
+      const updatedBlog = await Blog.update(
+        {
+          title: req.body.title,
+          text: req.body.text,
+        },
+        {
+          where: {
+            id: req.params.id,
+          },
+        }
+      );
+      res.json(updatedBlog);
+    } catch (err) {
+      res.status(400).json(err);
+    }
+  });
+
+module.exports = router;
